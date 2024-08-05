@@ -21,11 +21,11 @@ const Profile: React.FC<ProfileProps> = ({ profileData }) => {
           e.currentTarget.src = Placeholder;
         }} 
       />
+      <p>State ID: {profileData['State ID']}</p>
       <p>Phone Number: {profileData['Phone Number']}</p>
       <p>Gang/Association: {profileData['Gang/Association']}</p>
       <p>Nicknames: {profileData.Nicknames}</p>
       <p>Date of Birth: {profileData['Date of Birth']}</p>
-      <p>Religion: {profileData.Religion}</p>
       <p>Dirt: {profileData.Dirt}</p>
       <p>Information: {profileData.Information}</p>
       <p>Properties: {profileData.Properties}</p>

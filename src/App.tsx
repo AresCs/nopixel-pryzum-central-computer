@@ -9,11 +9,11 @@ import profileData from './data/Data.json';
 
 export interface ProfileData {
   Name: string;
+  "State ID": number;
   "Phone Number": number;
   "Gang/Association": string;
   Nicknames: string;
   "Date of Birth": string;
-  Religion: string;
   Dirt: string | null;
   Properties: string | null;
   Information: string | null;
