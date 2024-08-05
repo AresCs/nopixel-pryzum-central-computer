@@ -1,0 +1,14 @@
+
+  .profile img {
+    width: 500px; /* Adjust to a more reasonable size */
+    height: 500px; /* Adjust to maintain aspect ratio */
+  }
+  
+  .profile h3 {
+    font-size: 24px;
+  }
+  
+  .profile p {
+    font-size: 18px;
+  }
+  

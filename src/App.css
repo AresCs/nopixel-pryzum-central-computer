@@ -1,0 +1,435 @@
+:root {
+  --primary-color: #FF0054; /* Pink/Magenta color from your logo */
+  --background-color: #1f1e1e; /* Black color */
+  --text-color: #FFFFFF; /* White color for text to stand out against the dark background */
+  --accent-color: #780023; /* Dark red color from your logo for accents */
+  --hover-color: #EE004F; /* Another pink/red color for hover effects */
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'MS Gothic', sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  font-size: 12px;
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 10px;
+  background: var(--background-color);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--text-color);
+  animation: rgbText 1s steps(9) 0s infinite alternate;
+  animation-name: rgbText;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+ul {
+  list-style-type: square;
+}
+
+blockquote {
+  padding: 5px 10px;
+  border-left: 1px solid var(--text-color);
+}
+
+.header {
+  padding: 10px 15px;
+  border: 1px solid var(--text-color);
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.row {
+  display: flex;
+  border: 1px solid var(--text-color);
+  border-top: none;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.column {
+  padding: 15px 20px;
+}
+
+.column.side {
+  flex: 1;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 100% 100% 0 0;
+  background-image: url(https://i.imgur.com/QHX3vhD.jpeg);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.text {
+  color: var(--background-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: var(--text-color);
+}
+
+.column.middle {
+  flex: 2;
+}
+
+.heading {
+  padding: 8px 15px;
+  border: 1px solid var(--text-color);
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.heading::after {
+  content: "[_][o][x]";
+  float: right;
+}
+
+.inner {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid var(--text-color);
+  border-top: none;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
+}
+
+.tags {
+  margin-top: 8px;
+  padding: 10px 15px;
+  border: 1px solid var(--text-color);
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.app-container {
+  font-family: 'MS Gothic', sans-serif;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-header {
+  background-color: var(--background-color);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-logo {
+  max-width: 200px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background: var(--background-color);
+}
+
+.navigation-buttons {
+  margin-top: 10px;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--hover-color); /* Slightly darken the button on hover */
+}
+
+button:disabled {
+  background-color: #555; /* Darker grey when button is disabled */
+}
+
+/* VHS EFFECT: https://web.archive.org/web/20220124071638/https://lolcow.crd.co/#vhs */
+.noise {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 400;
+  opacity: 0.8;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 450;
+}
+
+.noise:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://ice-creme.de/images/background-noise.png");
+  pointer-events: none;
+  will-change: background-position;
+  animation: noise 1s infinite alternate;
+}
+
+.lines {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 300;
+  opacity: 0.6;
+  will-change: opacity;
+  animation: opacity 3s linear infinite;
+}
+
+.lines:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.5) 51%
+  );
+  background-size: 100% 4px;
+  will-change: background, background-size;
+  animation: scanlines 0.2s linear infinite;
+}
+
+.main .noise:before {
+  background-size: 170%;
+}
+
+.main .vhs {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  will-change: text-shadow;
+  animation: rgbText 2s steps(9) 0s infinite alternate;
+}
+
+.main .vhs .char {
+  will-change: opacity;
+  animation: type 1.2s infinite alternate;
+  animation-delay: calc(60ms * var(--char-index));
+}
+
+.main .time {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  will-change: text-shadow;
+  animation: rgbText 1s steps(9) 0s infinite alternate;
+}
+
+.main .glitchtext {
+  will-change: text-shadow;
+  animation: rgbText 1s steps(9) 0s infinite alternate;
+}
+
+@keyframes noise {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  10% {
+    background-position: -5% -10%;
+  }
+
+  20% {
+    background-position: -15% 5%;
+  }
+
+  30% {
+    background-position: 7% -25%;
+  }
+
+  40% {
+    background-position: 20% 25%;
+  }
+
+  50% {
+    background-position: -25% 10%;
+  }
+
+  60% {
+    background-position: 15% 5%;
+  }
+
+  70% {
+    background-position: 0 15%;
+  }
+
+  80% {
+    background-position: 25% 35%;
+  }
+
+  90% {
+    background-position: -10% 10%;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.6;
+  }
+
+  20% {
+    opacity: 0.3;
+  }
+
+  35% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  60% {
+    opacity: 0.4;
+  }
+
+  80% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes scanlines {
+  from {
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(0, 0, 0, 0.5) 51%
+    );
+    background-size: 100% 4px;
+  }
+
+  to {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 50%,
+      transparent 51%
+    );
+    background-size: 100% 4px;
+  }
+}
+
+@keyframes rgbText {
+  0% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), 0px 0 1px rgba(251, 0, 231, 0.8),
+      0 0px 3px rgba(0, 233, 235, 0.8), 0px 0 3px rgba(0, 242, 14, 0.8),
+      0 0px 3px rgba(244, 45, 0, 0.8), 0px 0 3px rgba(59, 0, 226, 0.8);
+  }
+
+  25% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), 0px 0 1px rgba(251, 0, 231, 0.8),
+      0 0px 3px rgba(0, 233, 235, 0.8), 0px 0 3px rgba(0, 242, 14, 0.8),
+      0 0px 3px rgba(244, 45, 0, 0.8), 0px 0 3px rgba(59, 0, 226, 0.8);
+  }
+
+  45% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), 5px 0 1px rgba(251, 0, 231, 0.8),
+      0 5px 1px rgba(0, 233, 235, 0.8), -5px 0 1px rgba(0, 242, 14, 0.8),
+      0 -5px 1px rgba(244, 45, 0, 0.8), 5px 0 1px rgba(59, 0, 226, 0.8);
+  }
+
+  50% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), -5px 0 1px rgba(251, 0, 231, 0.8),
+      0 -5px 1px rgba(0, 233, 235, 0.8), 5px 0 1px rgba(0, 242, 14, 0.8),
+      0 5px 1px rgba(244, 45, 0, 0.8), -5px 0 1px rgba(59, 0, 226, 0.8);
+  }
+
+  55% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), 0px 0 3px rgba(251, 0, 231, 0.8),
+      0 0px 3px rgba(0, 233, 235, 0.8), 0px 0 3px rgba(0, 242, 14, 0.8),
+      0 0px 3px rgba(244, 45, 0, 0.8), 0px 0 3px rgba(59, 0, 226, 0.8);
+  }
+
+  90% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), -5px 0 1px rgba(251, 0, 231, 0.8),
+      0 5px 1px rgba(0, 233, 235, 0.8), 5px 0 1px rgba(0, 242, 14, 0.8),
+      0 -5px 1px rgba(244, 45, 0, 0.8), 5px 0 1px rgba(59, 0, 226, 0.8);
+  }
+
+  100% {
+    text-shadow: -1px 1px 8px rgba(255, 255, 255, 0.6),
+      1px -1px 8px rgba(255, 255, 235, 0.7), 5px 0 1px rgba(251, 0, 231, 0.8),
+      0 -5px 1px rgba(0, 233, 235, 0.8), -5px 0 1px rgba(0, 242, 14, 0.8),
+      0 5px 1px rgba(244, 45, 0, 0.8), -5px 0 1px rgba(59, 0, 226, 0.8);
+  }
+}
+
+@keyframes type {
+  0%,
+  19% {
+    opacity: 0;
+  }
+
+  20%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.rgbtxt {
+  animation: rgbText 1s steps(9) 0s infinite alternate;
+  animation-name: rgbText;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
