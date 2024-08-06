@@ -21,7 +21,7 @@ for submodule_dir in submodule_dirs:
     # Iterate over files in the submodule directory
     for root, dirs, files in os.walk(submodule_dir):
         for file in files:
-            if file.endswith('.json'):
+            if file('Data.json'):
                 file_path = os.path.join(root, file)
                 with open(file_path, 'r') as f:
                     data = json.load(f)
