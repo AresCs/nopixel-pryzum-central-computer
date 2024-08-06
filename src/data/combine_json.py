@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Define the submodule directories and output file
-submodule_dirs = ['lucy']
+submodule_dirs = ['submodules/lucy']
 output_file = 'pryzumData.json'
 
 # Initialize a dictionary to hold the combined data with unique identifiers
@@ -21,7 +21,7 @@ for submodule_dir in submodule_dirs:
     # Iterate over files in the submodule directory
     for root, dirs, files in os.walk(submodule_dir):
         for file in files:
-            if file('Data.json'):
+            if file.endswith('.json'):
                 file_path = os.path.join(root, file)
                 with open(file_path, 'r') as f:
                     data = json.load(f)
