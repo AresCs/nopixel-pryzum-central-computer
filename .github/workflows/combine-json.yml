@@ -78,8 +78,9 @@ jobs:
       run: |
         git fetch origin
         git checkout gh-pages || git checkout -b gh-pages
-        cp src/data/pryzumData.json pryzumData.json
-        git add pryzumData.json
+        mkdir -p src/data
+        cp src/data/pryzumData.json src/data/pryzumData.json
+        git add src/data/pryzumData.json
         git commit -m 'Update pryzumData.json on gh-pages'
         git push origin gh-pages
       env:
