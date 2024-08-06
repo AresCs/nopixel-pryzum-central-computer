@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'submodules/lucy/**'
+      - 'submodules/ariel/**'
       - 'src/data/combine_json.py'
       - '.github/workflows/main-push.yml'
 

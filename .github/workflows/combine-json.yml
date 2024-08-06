@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'submodules/lucy/**'
+      - 'submodules/ariel/**'
+      - 'submodules/**/**'
   schedule:
     - cron: '1/5 * * * *'  # Run every 5 minutes
 
