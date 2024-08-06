@@ -37,7 +37,7 @@ jobs:
       run: python src/data/combine_json.py
     
     - name: Show contents of pryzumData.json
-      run: cat pryzumData.json
+      run: cat src/data/pryzumData.json
     
     - name: Stage changes
       run: |
