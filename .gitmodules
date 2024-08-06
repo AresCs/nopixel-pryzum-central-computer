@@ -1,0 +1,3 @@
+[submodule "submodules/lucy"]
+	path = submodules/lucy
+	url = https://github.com/AresCs/Lucy.git

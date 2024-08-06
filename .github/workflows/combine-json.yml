@@ -1,0 +1,65 @@
+name: Combine JSON Files
+
+on:
+  push:
+    paths:
+      - 'submodules/lucy/**'
+  schedule:
+    - cron: '1/5 * * * *'  # Run every 5 minutes
+
+jobs:
+  combine-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: true  # Ensure submodules are checked out
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+    
+    - name: Force update submodules
+      run: |
+        git submodule foreach --recursive 'git fetch && git checkout $(git symbolic-ref refs/remotes/origin/HEAD | sed "s@^refs/remotes/origin/@@")'
+
+    - name: Run combine script
+      run: python combine_json.py
+    
+    - name: Show contents of pryzumData.json
+      run: cat pryzumData.json
+    
+    - name: Stage changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add pryzumData.json
+        git status
+        git diff --cached --name-only
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --cached --name-only | grep -q 'pryzumData.json'; then
+          echo "changes_detected=true" >> $GITHUB_ENV
+        else
+          echo "changes_detected=false" >> $GITHUB_ENV
+        fi
+
+    - name: Commit and push changes
+      if: env.changes_detected == 'true'
+      run: |
+        git commit -m 'Automated combine JSON files'
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: No changes detected
+      if: env.changes_detected == 'false'
+      run: echo "There are no updates."
