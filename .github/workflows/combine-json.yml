@@ -85,11 +85,11 @@ jobs:
 
     - name: Run predeploy and deploy scripts
       if: env.changes_detected == 'true'
-      run: |
-        npm run predeploy
-        npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        npm run predeploy
+        npx gh-pages -d build -t $GITHUB_TOKEN
 
     - name: No changes detected
       if: env.changes_detected == 'false'
