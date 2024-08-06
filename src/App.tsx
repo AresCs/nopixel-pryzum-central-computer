@@ -5,7 +5,7 @@ import Login from './Component/Login/Login';
 import './App.css';
 import Logo from './Component/Logos/Pryzym_Logo2.png';
 import loginData from './Component/Login/Logins.json';
-import profileData from './data/Data.json';
+import profileData from './data/pryzumData.json';
 
 export interface ProfileData {
   Name: string;
