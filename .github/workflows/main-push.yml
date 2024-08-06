@@ -1,11 +1,13 @@
-name: Combine JSON Files
+name: Combine JSON Files on Main Push
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'submodules/lucy/**'
-  schedule:
-    - cron: '1/5 * * * *'  # Run every 5 minutes
+      - 'src/data/combine_json.py'
+      - '.github/workflows/main-push.yml'
 
 jobs:
   combine-json:
