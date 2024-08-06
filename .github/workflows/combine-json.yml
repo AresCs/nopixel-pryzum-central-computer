@@ -19,19 +19,27 @@ jobs:
       with:
         submodules: true  # Ensure submodules are checked out
     
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
       with:
-        python-version: '3.x'
+        node-version: '16'
     
     - name: Install dependencies
-      run: python -m pip install --upgrade pip
-    
+      run: npm install
+
     - name: Ensure submodules are up-to-date
       run: |
         git submodule sync --recursive
         git submodule update --init --recursive
         git submodule foreach --recursive 'git fetch origin && git checkout main'
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: python -m pip install --upgrade pip
     
     - name: Run combine script
       run: python src/data/combine_json.py
@@ -75,18 +83,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Deploy to gh-pages
+    - name: Run predeploy and deploy scripts
       if: env.changes_detected == 'true'
       run: |
-        git fetch origin
-        git checkout gh-pages || git checkout -b gh-pages
-        mkdir -p src/data
-        ls -l src/data
-        cp src/data/pryzumData.json src/data/pryzumData.json
-        ls -l src/data/pryzumData.json
-        git add src/data/pryzumData.json
-        git commit -m 'Update pryzumData.json on gh-pages'
-        git push origin gh-pages
+        npm run predeploy
+        npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
