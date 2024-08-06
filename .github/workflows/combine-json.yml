@@ -1,4 +1,4 @@
-name: Combine JSON Files
+name: Combine JSON Files and Publish to gh-pages
 
 on:
   push:
@@ -61,6 +61,18 @@ jobs:
       run: |
         git commit -m 'Automated combine JSON files'
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to gh-pages
+      if: env.changes_detected == 'true'
+      run: |
+        git fetch origin
+        git checkout gh-pages || git checkout -b gh-pages
+        cp src/data/pryzumData.json pryzumData.json
+        git add pryzumData.json
+        git commit -m 'Update pryzumData.json on gh-pages'
+        git push origin gh-pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
