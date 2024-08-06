@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Define the submodule directories and output file
-submodule_dirs = ['submodules/lucy']
+submodule_dirs = ['submodules/lucy', 'submodules/ariel']
 output_file = 'src/data/pryzumData.json'
 
 # Initialize a dictionary to hold the combined data with unique identifiers

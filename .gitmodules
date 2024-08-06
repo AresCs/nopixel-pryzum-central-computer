@@ -1,3 +1,6 @@
 [submodule "submodules/lucy"]
 	path = submodules/lucy
 	url = https://github.com/AresCs/Lucy.git
+[submodule "submodules/ariel"]
+	path = submodules/ariel
+	url = https://github.com/AresCs/Ariel.git
