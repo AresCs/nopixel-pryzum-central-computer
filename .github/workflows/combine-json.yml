@@ -38,6 +38,15 @@ jobs:
     
     - name: Show contents of pryzumData.json
       run: cat src/data/pryzumData.json
+
+    - name: Verify combined data file existence
+      run: |
+        if [ -f "src/data/pryzumData.json" ]; then
+          echo "pryzumData.json exists."
+        else
+          echo "pryzumData.json does not exist."
+          exit 1
+        fi
     
     - name: Stage changes
       run: |
