@@ -81,6 +81,7 @@ jobs:
         git fetch origin
         git checkout gh-pages || git checkout -b gh-pages
         mkdir -p src/data
+        ls -l src/data
         cp src/data/pryzumData.json src/data/pryzumData.json
         ls -l src/data/pryzumData.json
         git add src/data/pryzumData.json
