@@ -3,7 +3,7 @@ name: Combine JSON Files
 on:
   push:
     paths:
-      - 'submodules/lucy/**'
+      - 'LucyWebbPryzum/**'
   schedule:
     - cron: '1/5 * * * *'  # Run every 5 minutes
 
@@ -30,7 +30,7 @@ jobs:
         git submodule foreach --recursive 'git fetch && git checkout $(git symbolic-ref refs/remotes/origin/HEAD | sed "s@^refs/remotes/origin/@@")'
 
     - name: Run combine script
-      run: python combine_json.py
+      run: python src/data/combine_json.py
     
     - name: Show contents of pryzumData.json
       run: cat pryzumData.json
