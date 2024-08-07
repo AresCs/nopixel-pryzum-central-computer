@@ -4,3 +4,12 @@
 [submodule "submodules/ariel"]
 	path = submodules/ariel
 	url = https://github.com/AresCs/Ariel.git
+[submodule "submodules/akari"]
+	path = submodules/akari
+	url = https://github.com/AresCs/Akari.git
+[submodule "submodules/aria"]
+	path = submodules/aria
+	url = https://github.com/AresCs/Aria.git
+[submodule "submodules/kenz"]
+	path = submodules/kenz
+	url = https://github.com/AresCs/Kenz.git

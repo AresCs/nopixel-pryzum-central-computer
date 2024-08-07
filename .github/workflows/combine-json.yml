@@ -5,6 +5,9 @@ on:
     paths:
       - 'submodules/lucy/**'
       - 'submodules/ariel/**'
+      - 'submodules/akari/**'
+      - 'submodules/aria/**'
+      - 'submodules/kenz/**'
       - 'submodules/**/**'
   schedule:
     - cron: '1/5 * * * *'  # Run every 5 minutes
