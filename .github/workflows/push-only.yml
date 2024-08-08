@@ -48,15 +48,23 @@ jobs:
     - name: Install cryptography
       run: pip install cryptography
 
-    # Debugging step: List contents of the secure directory
-    - name: List files in secure directory
+    # Debugging step: List contents of the secure directory before key generation
+    - name: List files in secure directory before key generation
       run: ls -l src/secure/
 
     - name: Generate encryption key
       run: python scripts_py/generate_key.py
 
+    # Debugging step: List contents of the secure directory after key generation
+    - name: List files in secure directory after key generation
+      run: ls -l src/secure/
+
     - name: Combine and encrypt JSON data
       run: python scripts_py/combine_json.py
+
+    # Debugging step: List contents of the secure directory after combining JSON data
+    - name: List files in secure directory after combining JSON data
+      run: ls -l src/secure/
 
     - name: Encrypt login data
       run: python scripts_py/encrypt_logins.py
