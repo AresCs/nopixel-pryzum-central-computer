@@ -24,16 +24,20 @@ def parse_date(date_str):
 
 # Iterate over each submodule directory
 for submodule_dir in submodule_dirs:
+    print(f"Processing directory: {submodule_dir}")  # Debugging statement
     # Iterate over files in the submodule directory
     for root, dirs, files in os.walk(submodule_dir):
         for file in files:
             if file.endswith('.json'):
                 file_path = os.path.join(root, file)
+                print(f"Processing file: {file_path}")  # Debugging statement
                 with open(file_path, 'r') as f:
                     data = json.load(f)
                     # Assuming each file contains a dict with a "pryzumData" key
                     if "pryzumData" in data:
+                        print(f"Data found in file: {file_path}")  # Debugging statement
                         for entry in data["pryzumData"]:
+                            print(f"Processing entry: {entry}")  # Debugging statement
                             name = entry.get("Name")
                             date_of_entry = parse_date(entry.get("Date of Entry"))
 
