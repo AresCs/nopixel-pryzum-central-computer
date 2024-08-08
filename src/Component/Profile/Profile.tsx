@@ -30,6 +30,7 @@ const Profile: React.FC<ProfileProps> = ({ profileData }) => {
           }} 
         />
         <div className="profile-details">
+        <p><strong>State ID</strong> {profileData['State ID']}</p>
           <p><strong>Phone Number:</strong> {profileData["Phone Number"]}</p>
           <p><strong>Gang/Association:</strong> {profileData["Gang/Association"]}</p>
           <p><strong>Nicknames:</strong> {profileData.Nicknames}</p>
