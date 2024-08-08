@@ -1,12 +1,22 @@
 import os
 import json
 from cryptography.fernet import Fernet
+import time
 
 # Get the absolute path to the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Path to the key file
 key_file_path = os.path.join(script_dir, '../src/secure/key.key')
+
+# Wait and check for the key file
+max_wait_time = 10  # seconds
+wait_time = 0
+while not os.path.exists(key_file_path) and wait_time < max_wait_time:
+    print(f"Waiting for key file to be generated: {key_file_path}")
+    time.sleep(1)
+    wait_time += 1
+
 if not os.path.exists(key_file_path):
     raise FileNotFoundError(f"Key file not found: {key_file_path}")
 
