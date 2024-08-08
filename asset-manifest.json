@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nopixel-pryzum-central-computer/static/css/main.0c1d9c9a.css",
-    "main.js": "/nopixel-pryzum-central-computer/static/js/main.c7dc42b0.js",
+    "main.js": "/nopixel-pryzum-central-computer/static/js/main.4eb020a0.js",
     "static/js/453.c5c3f0d7.chunk.js": "/nopixel-pryzum-central-computer/static/js/453.c5c3f0d7.chunk.js",
     "static/media/NoTargetFound.png": "/nopixel-pryzum-central-computer/static/media/NoTargetFound.1f598d5d80b095d4141f.png",
     "static/media/Pryzym_Logo2.png": "/nopixel-pryzum-central-computer/static/media/Pryzym_Logo2.2f29df158615dc7a7429.png",
     "index.html": "/nopixel-pryzum-central-computer/index.html",
     "main.0c1d9c9a.css.map": "/nopixel-pryzum-central-computer/static/css/main.0c1d9c9a.css.map",
-    "main.c7dc42b0.js.map": "/nopixel-pryzum-central-computer/static/js/main.c7dc42b0.js.map",
+    "main.4eb020a0.js.map": "/nopixel-pryzum-central-computer/static/js/main.4eb020a0.js.map",
     "453.c5c3f0d7.chunk.js.map": "/nopixel-pryzum-central-computer/static/js/453.c5c3f0d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c1d9c9a.css",
-    "static/js/main.c7dc42b0.js"
+    "static/js/main.4eb020a0.js"
   ]
 }
