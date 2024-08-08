@@ -3,18 +3,24 @@ import json
 from datetime import datetime
 from cryptography.fernet import Fernet
 
-# Define the submodule directories and output file
+# Get the absolute path to the project root
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+# Define the submodule directories and output file using absolute paths
 submodule_dirs = [
-    '../submodules/lucy', 
-    '../submodules/ariel', 
-    '../submodules/akari', 
-    '../submodules/aria', 
-    '../submodules/kenz'
+    os.path.join(project_root, 'submodules/lucy'), 
+    os.path.join(project_root, 'submodules/ariel'), 
+    os.path.join(project_root, 'submodules/akari'), 
+    os.path.join(project_root, 'submodules/aria'), 
+    os.path.join(project_root, 'submodules/kenz')
 ]
-output_file = '../src/secure/pryzumData.json'
-key_file_path = '../src/secure/key.key'
+output_file = os.path.join(project_root, 'src/secure/pryzumData.json')
+key_file_path = os.path.join(project_root, 'src/secure/key.key')
 
 # Read the key from the file
+if not os.path.exists(key_file_path):
+    raise FileNotFoundError(f"Key file not found: {key_file_path}")
+
 with open(key_file_path, 'rb') as key_file:
     key = key_file.read()
 
