@@ -2,8 +2,11 @@ import os
 import json
 from cryptography.fernet import Fernet
 
+# Get the absolute path to the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
 # Path to the key file
-key_file_path = '../src/secure/key.key'
+key_file_path = os.path.join(script_dir, '../src/secure/key.key')
 if not os.path.exists(key_file_path):
     raise FileNotFoundError(f"Key file not found: {key_file_path}")
 
@@ -13,7 +16,7 @@ with open(key_file_path, 'rb') as key_file:
 cipher_suite = Fernet(key)
 
 # Path to the logins file
-logins_file = '../src/secure/Logins.json'
+logins_file = os.path.join(script_dir, '../src/secure/Logins.json')
 if not os.path.exists(logins_file):
     raise FileNotFoundError(f"Logins file not found: {logins_file}")
 
@@ -26,7 +29,7 @@ json_data = json.dumps(login_data).encode('utf-8')
 encrypted_data = cipher_suite.encrypt(json_data)
 
 # Ensure the output directory exists
-output_directory = '../src/secure'
+output_directory = os.path.join(script_dir, '../src/secure')
 os.makedirs(output_directory, exist_ok=True)
 
 # Write the encrypted data to a new file
