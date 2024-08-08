@@ -13,7 +13,7 @@ with open(key_file_path, 'rb') as key_file:
 cipher_suite = Fernet(key)
 
 # Path to the logins file
-logins_file = '../src/secure/Logins.json'
+logins_file = '../src/secure/logins.json'
 if not os.path.exists(logins_file):
     raise FileNotFoundError(f"Logins file not found: {logins_file}")
 
