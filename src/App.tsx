@@ -5,6 +5,7 @@ import Login from './Component/Login/Login';
 import './App.css';
 import Logo from './Component/Logos/Pryzym_Logo2.png';
 import { decryptData } from './utils/decrypt';
+import bcrypt from 'bcryptjs';
 
 // URLs for your encrypted data
 const encryptedDataUrl = '/secure/pryzumData.json';
@@ -27,7 +28,7 @@ export interface ProfileData {
 
 interface LoginCredentials {
   username: string;
-  password: string;
+  password: string; // This should be a hashed password
 }
 
 const App = () => {
@@ -80,9 +81,16 @@ const App = () => {
   };
 
   const handleLogin = (username: string, password: string) => {
-    const user = loginData.find((user: LoginCredentials) => user.username === username && user.password === password);
+    const user = loginData.find((user: LoginCredentials) => user.username === username);
+
     if (user) {
-      setIsLoggedIn(true);
+      bcrypt.compare(password, user.password, (err, result) => {
+        if (result) {
+          setIsLoggedIn(true);
+        } else {
+          alert('Invalid credentials');
+        }
+      });
     } else {
       alert('Invalid credentials');
     }
