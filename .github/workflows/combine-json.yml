@@ -69,6 +69,17 @@ jobs:
           ls -l src/secure
           exit 1
         fi
+
+    - name: Verify encrypted logins file existence
+      run: |
+        if [ -f "src/secure/Logins.enc" ]; then
+          echo "Logins.enc exists."
+          ls -l src/secure/Logins.enc
+        else
+          echo "Logins.enc does not exist."
+          ls -l src/secure
+          exit 1
+        fi
     
     - name: Stage changes
       run: |
@@ -81,7 +92,7 @@ jobs:
     - name: Check for changes
       id: check_changes
       run: |
-        if git diff --cached --name-only | grep -q 'src/secure/pryzumData.json'; then
+        if git diff --cached --name-only | grep -q 'src/secure/pryzumData.json\|src/secure/Logins.enc'; then
           echo "changes_detected=true" >> $GITHUB_ENV
         else
           echo "changes_detected=false" >> $GITHUB_ENV
