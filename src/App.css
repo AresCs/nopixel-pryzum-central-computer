@@ -239,6 +239,12 @@ button:disabled {
   background-color: #555; /* Darker grey when button is disabled */
 }
 
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px; /* Adjust gap between buttons */
+}
+
 /* VHS EFFECT: https://web.archive.org/web/20220124071638/https://lolcow.crd.co/#vhs */
 .noise {
   position: fixed;

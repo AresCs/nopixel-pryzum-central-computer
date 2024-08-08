@@ -82,6 +82,10 @@ const App = () => {
       <header className="app-header">
         <img src={Logo} className="app-logo" alt="Pryzum Logo" />
         <SearchBar onSearch={handleSearch} />
+        <div className="button-container">
+        <button onClick={handlePrevious} disabled={searchIndex === 0}>Previous</button>
+        <button onClick={handleNext} disabled={searchIndex === searchResults.length - 1}>Next</button>
+        </div>
       </header>
       <div className="profile-container">
         {searchResults.length > 0 ? (
@@ -89,12 +93,6 @@ const App = () => {
         ) : (
           <p>No profiles found</p>
         )}
-        <button onClick={handlePrevious} disabled={searchIndex === 0}>
-          Previous
-        </button>
-        <button onClick={handleNext} disabled={searchIndex === searchResults.length - 1}>
-          Next
-        </button>
       </div>
       <div className="noise"></div>
       <div className="lines"></div>
