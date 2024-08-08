@@ -44,8 +44,10 @@ jobs:
     - name: Install Python dependencies
       run: python -m pip install --upgrade pip
 
-    - name: Install cryptography
-      run: pip install cryptography
+    - name: Install cryptography and bcrypt
+      run: |
+        pip install cryptography
+        pip install bcrypt
     
     # Debugging step: List contents of the secure directory before key generation
     - name: List files in secure directory before key generation
