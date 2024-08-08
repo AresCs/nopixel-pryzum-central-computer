@@ -4,8 +4,11 @@ import SearchBar from './Component/SearchBar/SearchBar';
 import Login from './Component/Login/Login';
 import './App.css';
 import Logo from './Component/Logos/Pryzym_Logo2.png';
-import loginData from './Component/Login/Logins.json';
-import profileData from './data/pryzumData.json';
+import { decryptData } from './utils/decrypt';
+
+// URLs for your encrypted data
+const encryptedDataUrl = '/secure/pryzumData.json';
+const encryptedLoginsUrl = '/secure/Logins.enc';
 
 export interface ProfileData {
   Name: string;
@@ -32,11 +35,23 @@ const App = () => {
   const [searchResults, setSearchResults] = useState<ProfileData[]>([]);
   const [searchIndex, setSearchIndex] = useState(0);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [loginData, setLoginData] = useState<LoginCredentials[]>([]);
 
   useEffect(() => {
-    // Initialize profiles with data from the JSON file
-    setProfiles(profileData.pryzumData);
-    setSearchResults(profileData.pryzumData);
+    // Fetch the key and encrypted data
+    Promise.all([
+      fetch('/secure/key.key').then(response => response.text()),
+      fetch(encryptedDataUrl).then(response => response.text()),
+      fetch(encryptedLoginsUrl).then(response => response.text())
+    ]).then(([key, encryptedData, encryptedLogins]) => {
+      const decryptedProfiles = decryptData(encryptedData, key.trim());
+      const decryptedLogins = decryptData(encryptedLogins, key.trim());
+      setProfiles(decryptedProfiles.pryzumData);
+      setSearchResults(decryptedProfiles.pryzumData);
+      setLoginData(decryptedLogins);
+    }).catch(error => {
+      console.error('Error fetching or decrypting data:', error);
+    });
   }, []);
 
   const handleSearch = (query: string) => {
@@ -83,8 +98,8 @@ const App = () => {
         <img src={Logo} className="app-logo" alt="Pryzum Logo" />
         <SearchBar onSearch={handleSearch} />
         <div className="button-container">
-        <button onClick={handlePrevious} disabled={searchIndex === 0}>Previous</button>
-        <button onClick={handleNext} disabled={searchIndex === searchResults.length - 1}>Next</button>
+          <button onClick={handlePrevious} disabled={searchIndex === 0}>Previous</button>
+          <button onClick={handleNext} disabled={searchIndex === searchResults.length - 1}>Next</button>
         </div>
       </header>
       <div className="profile-container">

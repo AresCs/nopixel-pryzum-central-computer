@@ -43,21 +43,30 @@ jobs:
 
     - name: Install Python dependencies
       run: python -m pip install --upgrade pip
+
+    - name: Install cryptography
+      run: pip install cryptography
     
-    - name: Run combine script
-      run: python src/data/combine_json.py
+    - name: Generate encryption key
+      run: python scripts_py/generate_key.py
+
+    - name: Combine and encrypt JSON data
+      run: python scripts_py/combine_json.py
+
+    - name: Encrypt login data
+      run: python scripts_py/encrypt_logins.py
     
     - name: Show contents of pryzumData.json
-      run: cat src/data/pryzumData.json
+      run: cat src/secure/pryzumData.json
 
     - name: Verify combined data file existence
       run: |
-        if [ -f "src/data/pryzumData.json" ]; then
+        if [ -f "src/secure/pryzumData.json" ]; then
           echo "pryzumData.json exists."
-          ls -l src/data/pryzumData.json
+          ls -l src/secure/pryzumData.json
         else
           echo "pryzumData.json does not exist."
-          ls -l src/data
+          ls -l src/secure
           exit 1
         fi
     
@@ -65,14 +74,14 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add src/data/pryzumData.json
+        git add src/secure/pryzumData.json src/secure/Logins.enc
         git status
         git diff --cached --name-only
 
     - name: Check for changes
       id: check_changes
       run: |
-        if git diff --cached --name-only | grep -q 'src/data/pryzumData.json'; then
+        if git diff --cached --name-only | grep -q 'src/secure/pryzumData.json'; then
           echo "changes_detected=true" >> $GITHUB_ENV
         else
           echo "changes_detected=false" >> $GITHUB_ENV

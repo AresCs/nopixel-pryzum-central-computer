@@ -1,16 +1,24 @@
 import os
 import json
 from datetime import datetime
+from cryptography.fernet import Fernet
 
 # Define the submodule directories and output file
 submodule_dirs = [
-    'submodules/lucy', 
-    'submodules/ariel', 
-    'submodules/akari', 
-    'submodules/aria', 
-    'submodules/kenz'
+    '../submodules/lucy', 
+    '../submodules/ariel', 
+    '../submodules/akari', 
+    '../submodules/aria', 
+    '../submodules/kenz'
 ]
-output_file = 'src/data/pryzumData.json'
+output_file = '../src/secure/pryzumData.json'
+key_file_path = '../src/secure/key.key'
+
+# Read the key from the file
+with open(key_file_path, 'rb') as key_file:
+    key = key_file.read()
+
+cipher_suite = Fernet(key)
 
 # Initialize a dictionary to hold the combined data with unique identifiers
 combined_data = {}
@@ -18,31 +26,29 @@ combined_data = {}
 # Helper function to convert date string to datetime object
 def parse_date(date_str):
     try:
-        return datetime.strptime(date_str, "%d/%m/%Y %H:%M:%S")  # Updated to match the format in your example
+        return datetime.strptime(date_str, "%d/%m/%Y %H:%M:%S")
     except ValueError:
         return None
 
 # Iterate over each submodule directory
 for submodule_dir in submodule_dirs:
-    print(f"Processing directory: {submodule_dir}")  # Debugging statement
+    print(f"Processing directory: {submodule_dir}")
     # Iterate over files in the submodule directory
     for root, dirs, files in os.walk(submodule_dir):
         for file in files:
             if file.endswith('.json'):
                 file_path = os.path.join(root, file)
-                print(f"Processing file: {file_path}")  # Debugging statement
+                print(f"Processing file: {file_path}")
                 with open(file_path, 'r') as f:
                     data = json.load(f)
-                    # Assuming each file contains a dict with a "pryzumData" key
                     if "pryzumData" in data:
-                        print(f"Data found in file: {file_path}")  # Debugging statement
+                        print(f"Data found in file: {file_path}")
                         for entry in data["pryzumData"]:
-                            print(f"Processing entry: {entry}")  # Debugging statement
+                            print(f"Processing entry: {entry}")
                             name = entry.get("Name")
                             date_of_entry = parse_date(entry.get("Date of Entry"))
 
                             if name and date_of_entry:
-                                # If the entry already exists, compare timestamps
                                 if name in combined_data:
                                     existing_date_of_entry = parse_date(combined_data[name]["Date of Entry"])
                                     if date_of_entry > existing_date_of_entry:
@@ -55,8 +61,12 @@ final_data = {
     "pryzumData": list(combined_data.values())
 }
 
-# Write the combined data to the output file
-with open(output_file, 'w') as f:
-    json.dump(final_data, f, indent=4)
+# Encrypt the combined data
+json_data = json.dumps(final_data).encode('utf-8')
+encrypted_data = cipher_suite.encrypt(json_data)
 
-print(f'Combined data written to {output_file}')
+# Write the encrypted data to the output file
+with open(output_file, 'wb') as f:
+    f.write(encrypted_data)
+
+print(f'Encrypted combined data written to {output_file}')
