@@ -105,12 +105,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "Chumash,Ineseno Road,18",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/vpgx4FM.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/b6wBP.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1504
         },
         {
             "Name": "Leon Benz",
@@ -211,6 +211,188 @@
             "State ID": 2124
         },
         {
+            "Name": "Celine Jaxx",
+            "Phone Number": 0,
+            "Gang/Association": "Doctor",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 14443
+        },
+        {
+            "Name": "Jeffrey Right",
+            "Phone Number": 0,
+            "Gang/Association": "Doctor",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 14362
+        },
+        {
+            "Name": "Andrew Baker",
+            "Phone Number": 0,
+            "Gang/Association": "Doctor",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 14153
+        },
+        {
+            "Name": "Jing Wrong",
+            "Phone Number": 0,
+            "Gang/Association": "BCSO Cadet",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13989
+        },
+        {
+            "Name": "Sakura Fan",
+            "Phone Number": 0,
+            "Gang/Association": "BCSO Cadet",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13974
+        },
+        {
+            "Name": "Johnny Space",
+            "Phone Number": 0,
+            "Gang/Association": "LSPD Cadet",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13736
+        },
+        {
+            "Name": "Clara Dawson",
+            "Phone Number": 0,
+            "Gang/Association": "LSPD Cadet",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13719
+        },
+        {
+            "Name": "Olive Pratt",
+            "Phone Number": 0,
+            "Gang/Association": "State Marshals",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "https://kappa.lol/OENFN.png",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13707
+        },
+        {
+            "Name": "Rainer Fairlady",
+            "Phone Number": 0,
+            "Gang/Association": "DOC",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13699
+        },
+        {
+            "Name": "Abdibhakur Abdi",
+            "Phone Number": 0,
+            "Gang/Association": "Doctor",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13641
+        },
+        {
+            "Name": "Selia Moon",
+            "Phone Number": 0,
+            "Gang/Association": "Doctor",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "Unknown",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13548
+        },
+        {
+            "Name": "Maverick Grant",
+            "Phone Number": 4203103852,
+            "Gang/Association": "EMS",
+            "Nicknames": "Unknown",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "https://kappa.lol/qqbfy.png",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 13403
+        },
+        {
+            "Name": "Brittany Angel",
+            "Phone Number": 4203103852,
+            "Gang/Association": "Judge, State Marshals",
+            "Nicknames": "The Tank",
+            "Date of Birth": "Unknown",
+            "Dirt": "Unknown",
+            "Properties": "Unknown",
+            "Information": "Unknown",
+            "Occupations": "Unknown",
+            "Picture of Person": "https://kappa.lol/yRD9h.png",
+            "Date of Entry": "08/08/2024 14:14:00",
+            "State ID": 1157
+        },
+        {
             "Name": "Bobby Charles",
             "Phone Number": 4200705875,
             "Gang/Association": "Unknown",
@@ -221,7 +403,7 @@
             "Information": "Weapons License Holder",
             "Occupations": "Legal Aid,Warden at Dogtown",
             "Picture of Person": "https://i.imgur.com/GN3YiiD.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1666
         },
         {
@@ -235,7 +417,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1685
         },
         {
@@ -249,7 +431,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/vrNskaI.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1144
         },
         {
@@ -263,7 +445,7 @@
             "Information": "Road Captain",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/oBTkNXB.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1486
         },
         {
@@ -277,7 +459,7 @@
             "Information": "rat kingdom - selling water distilleries + GROCERIES | | | SELLING BUTC",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/a4aOUJQ.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3132
         },
         {
@@ -291,7 +473,7 @@
             "Information": "Dead",
             "Occupations": "Therapist",
             "Picture of Person": "https://i.imgur.com/gKXOQbH.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4675
         },
         {
@@ -305,7 +487,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/ssOPW7H.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4948
         },
         {
@@ -319,7 +501,7 @@
             "Information": "Hunting License",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Z29JYFq.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 10013
         },
         {
@@ -333,7 +515,7 @@
             "Information": "Weapons License Holder, Possibly a racer multiple criminal records for speeding",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Uv4yodw.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 7101
         },
         {
@@ -347,7 +529,7 @@
             "Information": "Unknown",
             "Occupations": "Diamond Division Security",
             "Picture of Person": "https://i.imgur.com/RFf1sct.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 8444
         },
         {
@@ -361,7 +543,7 @@
             "Information": "Selling bricks, in bulk, dirt cheap",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 6195
         },
         {
@@ -375,7 +557,7 @@
             "Information": "Buying Materials $6per",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/xbRr7Z5.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1532
         },
         {
@@ -389,7 +571,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/8y7dFHa.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 2212
         },
         {
@@ -403,7 +585,7 @@
             "Information": "Road Captain",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/8U4G6gZ.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3352
         },
         {
@@ -417,7 +599,7 @@
             "Information": "Very knowlageable and has a tone of conections",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/BXsx6Hp.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -431,7 +613,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/2bAYRyZ.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1974
         },
         {
@@ -445,7 +627,7 @@
             "Information": "Car Seller",
             "Occupations": "Mosley's Administrative Assistant",
             "Picture of Person": "https://i.imgur.com/WzQrWAm.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3065
         },
         {
@@ -459,7 +641,7 @@
             "Information": "Dean of School of Hard Knocks | HR/PR Consultant |",
             "Occupations": "SouthSide Tow and Impound Release",
             "Picture of Person": "https://i.imgur.com/jQWNjTa.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4175
         },
         {
@@ -473,7 +655,7 @@
             "Information": "Certified IT Man | CyberSecurity | Master Mechanic",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 9486
         },
         {
@@ -487,7 +669,7 @@
             "Information": "Massive Criminal History",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/KumtxQE.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 7298
         },
         {
@@ -501,7 +683,7 @@
             "Information": "Weapons License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Uq6OxlR.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1392
         },
         {
@@ -515,7 +697,7 @@
             "Information": "Director of Business Relations | Diamond Division |",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 7980
         },
         {
@@ -529,7 +711,7 @@
             "Information": "Selling Lockpicks, Big Criminal History with gun crimes",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/XhWceNt.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1047
         },
         {
@@ -543,7 +725,7 @@
             "Information": "Selling Oracle XS 30k / Selling G6 T2 10k$ / Selling Jewlery 5$ per",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Mw9uO2p.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3070
         },
         {
@@ -557,7 +739,7 @@
             "Information": "Big Criminal History",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/kukH9IF.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 6897
         },
         {
@@ -571,7 +753,7 @@
             "Information": "City Hall helpline",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1248
         },
         {
@@ -585,7 +767,7 @@
             "Information": "Hunting License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/kGlIfBj.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 6373
         },
         {
@@ -599,7 +781,7 @@
             "Information": "Paps Media | Papstalk Podcast ",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4269
         },
         {
@@ -613,7 +795,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/iKZvLXI.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 10043
         },
         {
@@ -627,7 +809,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/gvzytZ7.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 6915
         },
         {
@@ -641,7 +823,7 @@
             "Information": "Chaos Legion MC | Karnage Motorshop",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Db61ECA.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4519
         },
         {
@@ -655,7 +837,7 @@
             "Information": "Likes to do street races and hit cash exchanges all the time",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/QaKjaZg.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1950
         },
         {
@@ -669,7 +851,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1820
         },
         {
@@ -683,7 +865,7 @@
             "Information": "Weapons License Holder, Been charged with speeding and contempt of court",
             "Occupations": "Police",
             "Picture of Person": "https://i.imgur.com/AulQzHE.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1125
         },
         {
@@ -697,7 +879,7 @@
             "Information": "Master Mechanic @ Mosley's | Legal Aid, Weapons License Holder, Hunting License Holder, State Bar License Holder",
             "Occupations": "Mosley's Legal Aid",
             "Picture of Person": "https://i.imgur.com/uT2sFkS.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -711,7 +893,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 5208
         },
         {
@@ -725,7 +907,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/2bAsb1U.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1702
         },
         {
@@ -739,7 +921,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/1qfi9Bx.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 7491
         },
         {
@@ -753,7 +935,7 @@
             "Information": "Paralegal | Legal Aid | G6 Master | Investor | Hunting License Holder | Weapons License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/Qkr5f2y.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 9994
         },
         {
@@ -764,11 +946,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/V9IgxVV.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.imgur.com/2Pa0ySM.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 3708
         },
         {
             "Name": "Clementine LeFebvre",
@@ -781,7 +963,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1124
         },
         {
@@ -795,7 +977,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 10473
         },
         {
@@ -809,7 +991,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/y3xfSTj.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1408
         },
         {
@@ -823,7 +1005,7 @@
             "Information": "Profile to be deemed Classified, Hunting License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 4371
         },
         {
@@ -837,7 +1019,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/PfZpivy.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 2278
         },
         {
@@ -851,7 +1033,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 7877
         },
         {
@@ -865,7 +1047,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/ST3Wq2z.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3230
         },
         {
@@ -879,7 +1061,7 @@
             "Information": "Owns only farms situated next to the fernace with raymond romonov",
             "Occupations": "Police",
             "Picture of Person": "https://i.imgur.com/6kL905M.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 1719
         },
         {
@@ -893,7 +1075,7 @@
             "Information": "Hunting License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/yayl9Nr.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 3760
         },
         {
@@ -904,11 +1086,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "http://imageshack.com/a/img923/9739/ihTprq.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4214
         },
         {
             "Name": "Patrick Desseault",
@@ -921,8 +1103,8 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1872
         },
         {
             "Name": "Mahmud Hamada",
@@ -934,9 +1116,9 @@
             "Properties": "Unknown",
             "Information": "Unknown",
             "Occupations": "Doctor",
-            "Picture of Person": "https://i.imgur.com/B6ujH2Z.jpg",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/xp6GTm.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 8577
         },
         {
             "Name": "Autumn Perry",
@@ -948,9 +1130,9 @@
             "Properties": "Unknown",
             "Information": "Papstalk Podcast & Legal Aid",
             "Occupations": "Legal Aid",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/Oh7Et.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 9648
         },
         {
             "Name": "Eddie Cargo",
@@ -960,11 +1142,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/7yNF53J.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/5KmF1r.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 7792
         },
         {
             "Name": "Dante Vergara-Thomas",
@@ -974,11 +1156,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Mosley's Car Salesmen | Liquid Library",
+            "Information": "Mosley's Car Salesmen | Liquid Library | Hunting License Holder | Business License Holder",
             "Occupations": "Doctor",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1669
         },
         {
             "Name": "Ben Casanova",
@@ -991,8 +1173,8 @@
             "Information": "works for the lumber company, former doctor",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 5709
         },
         {
             "Name": "Danny Goomba",
@@ -1002,11 +1184,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/XTbxe",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4382
         },
         {
             "Name": "Ash Ketchup",
@@ -1019,8 +1201,8 @@
             "Information": "LVL1 CLERK - HUNTING LICENSES, owns a funiture company seperate from the lumber company",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1533
         },
         {
             "Name": "Billy Bronson",
@@ -1033,8 +1215,8 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/mHavp8F.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 6671
         },
         {
             "Name": "Max Wood",
@@ -1044,11 +1226,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/8JsmV",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2457
         },
         {
             "Name": "Georgia Brooks",
@@ -1060,9 +1242,9 @@
             "Properties": "Unknown",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/yZNtR.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4686
         },
         {
             "Name": "Wong Hung",
@@ -1071,12 +1253,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "El Burro Heights, Fudge Lane, 16 ",
-            "Information": "Unknown",
+            "Properties": "None",
+            "Information": "Big Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/fYodeUd.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/IDPf_.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4484
         },
         {
             "Name": "Dawn Hearte",
@@ -1089,8 +1271,8 @@
             "Information": "City Hall helpline! COUNTY CLERK! WOW! OMG! I ALSO GIVE ADVICE!",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1404
         },
         {
             "Name": "Smiley Salamanca",
@@ -1102,9 +1284,9 @@
             "Properties": "Unknown",
             "Information": "The Southside Locksmith Jamestown Jeweler",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/VhSDhpc.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/1EJFG",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 3414
         },
         {
             "Name": "Abdul AlRahim",
@@ -1113,12 +1295,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
-            "Information": "Abdul Taxi Service, Don't be a Fool, Ride with Abdul, \"Food Delivery\" \"Repair Tool Delivery\" \"Roadside Repairs\" \"Flexible Rates\"Unknown",
+            "Properties": "South Side, Brogue Ave,5",
+            "Information": "Abdul Taxi Service , Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/HgjfUKc.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/v7w5s.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1131
         },
         {
             "Name": "Abilene Contralto",
@@ -1128,11 +1310,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Assistant to Judge Jackson. Paralegal, Legal Aide. Call if needed. currently helping in the city council for Nino",
+            "Information": "Assistant to Judge Jackson. Paralegal, Legal Aid, State Bar License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/d0lxBHa.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://twili.dev/p?url=https://i.imgur.com/d0lxBHa.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4865
         },
         {
             "Name": "Talia Hughes",
@@ -1145,8 +1327,8 @@
             "Information": " Papstalk Podcast - Director of Sales & Distribution ",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 7379
         },
         {
             "Name": "Alexander River",
@@ -1155,12 +1337,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
-            "Information": "gruppe 6 [Manager], ex owner of los santos pizza, rich guy who likes to flaunt welth",
-            "Occupations": "Gruppe 6",
+            "Properties": "Mirror Park, West Mirror Drive, 20 , Little Seoul, South Rockford Drive, 11",
+            "Information": "Previous G6 Manager, Been charged with many crimes",
+            "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/8mZYYKS.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1501
         },
         {
             "Name": "Jason Tyrell",
@@ -1172,9 +1354,9 @@
             "Properties": "Unknown",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/o8YzHae.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/cE3s1.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1529
         },
         {
             "Name": "Isabella May",
@@ -1187,8 +1369,8 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/uaC2E1E.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2064
         },
         {
             "Name": "Viper Higgins",
@@ -1200,9 +1382,9 @@
             "Properties": "Unknown",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/UVzjM.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 9978
         },
         {
             "Name": "Kevin Ram",
@@ -1211,12 +1393,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
-            "Information": "Mosleys Car Sales | Budget-Friendly Therapist/Relationship Coach",
+            "Properties": "Little Seoul, Calais Ave, 305 , Sandy Shores, Cholla Springs Ave, 6 , Little Seoul, Calais Ave , 307 , Little Seoul, Calais Ave, 303 , Little Seoul, Calais Ave 309 , Little Seoul, Palomino Ave, 229",
+            "Information": "Mosleys Car Sales | Hunting License Holder | Weapons License Holder",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2616
         },
         {
             "Name": "Eric Hughes",
@@ -1225,12 +1407,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "El Burro Heights, Amarillo Vista, 6",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/MRR-1",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 10429
         },
         {
             "Name": "Azazel Knight",
@@ -1243,8 +1425,8 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/LcJhhM9.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 8501
         },
         {
             "Name": "Ivy Grayson",
@@ -1256,9 +1438,9 @@
             "Properties": "Unknown",
             "Information": "Dr. Ivy Grayson - Los Santos Medical Group. Please call my assistant Kermy for appointments.",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/q8-X2",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 9213
         },
         {
             "Name": "Arthur Cannon",
@@ -1271,8 +1453,8 @@
             "Information": "The Loophole Court Newsletter Publisher (text to get a copy or subscribe!) | Available for Legal Aid",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/wMSTcC9.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4402
         },
         {
             "Name": "Lynn D'Anemone",
@@ -1281,12 +1463,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
-            "Information": "Unknown",
+            "Properties": "Mirror Park, East Mirror Drive, 2",
+            "Information": "Hunting License Holder | Weapons License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/f1wr8",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 10606
         },
         {
             "Name": "Ariel Webb",
@@ -1296,11 +1478,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder | Weapons License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/Y4mi4RF.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/BP7KUz.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 10560
         },
         {
             "Name": "James Thompson",
@@ -1309,12 +1491,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "Grapeseed, North Calafia Way, 695",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/oBAeh.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1662
         },
         {
             "Name": "Veronica Westfield",
@@ -1324,11 +1506,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder | Weapons License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/1jeWtnF.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/AzSEp",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1753
         },
         {
             "Name": "DJ Cooper",
@@ -1337,12 +1519,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
-            "Information": "Unknown",
+            "Properties": "South Side, Grove Street, 5",
+            "Information": "Big Criminal History | Hunting License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/ZrhgvbB.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/irgPRU.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2394
         },
         {
             "Name": "Marlo Stanfield",
@@ -1352,11 +1534,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Big Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/BIxgif.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1537
         },
         {
             "Name": "Xavier Monroe",
@@ -1366,11 +1548,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Sandy Shores, Mountain View Dr, 4",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder | Weapons License Holder",
             "Occupations": "Lawyer",
-            "Picture of Person": "https://i.imgur.com/4JvGTuh.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/a5ig9a.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 7051
         },
         {
             "Name": "Luna Purpose",
@@ -1381,10 +1563,10 @@
             "Dirt": "Unknown",
             "Properties": "Unknown",
             "Information": "Sakura Raven Slaughterhouse and Butchery - Buying UNPROCESSED MEAT and FUR",
-            "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Occupations": "Hunting License Holder | Weapons License Holder",
+            "Picture of Person": "https://kappa.lol/8pi2Z",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2578
         },
         {
             "Name": "Roberto Breeze",
@@ -1393,12 +1575,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "Grapeseed, Grapeseed Main St, 12",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/o9EoQ.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 3585
         },
         {
             "Name": "Todd Hughes",
@@ -1410,23 +1592,23 @@
             "Properties": "Unknown",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/_TWIk",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 9315
         },
         {
-            "Name": "Stanley Miller",
+            "Name": "Stanley \"Lil Tuggz\" Miller",
             "Phone Number": 4204559622,
             "Gang/Association": "Unknown",
             "Nicknames": "Lil Tuggz",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Once ran for mayor and come 4th place",
+            "Information": "Once ran for mayor and come 4th place | Big Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/T0P9g5o.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.gyazo.com/9693a20dba09b12899a5195fea6d51f4.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1221
         },
         {
             "Name": "Jacyn Todd",
@@ -1438,9 +1620,9 @@
             "Properties": "Unknown",
             "Information": "Los Santos Sanitation Division - (LSD) - CFO",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/jAD9M",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 7420
         },
         {
             "Name": "Eve DiCenzo-Summers",
@@ -1453,8 +1635,8 @@
             "Information": "County Clerk Hunting Licenses | Running Passes",
             "Occupations": "County Clerk",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1075
         },
         {
             "Name": "Beau Bummer",
@@ -1466,9 +1648,9 @@
             "Properties": "Unknown",
             "Information": "LSD Manager",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/3BWF8I.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 7704
         },
         {
             "Name": "Daquan \"Peanut\" Dumas",
@@ -1478,11 +1660,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/nD2x1wh.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://i.vgy.me/uV7YSJ.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2013
         },
         {
             "Name": "Garret Mathews",
@@ -1494,9 +1676,9 @@
             "Properties": "Mirror Park, Bridge Street, 11",
             "Information": "The Hidden",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/bfxXuH2.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/KeV2Q",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1418
         },
         {
             "Name": "Jindo Kim",
@@ -1508,9 +1690,9 @@
             "Properties": "Mirror Park, West Mirror Drive, 20 ",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/U7GMrDC.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "http://imageshack.com/a/img922/1406/hKldLO.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 10227
         },
         {
             "Name": "Mohammed Momin",
@@ -1519,12 +1701,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "La Puerta, Bay City Ave, 2 , La Puerta, Bay City Ave, 4",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/tWZ5F",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 9772
         },
         {
             "Name": "Outto-Tune Tyrone",
@@ -1533,12 +1715,12 @@
             "Nicknames": "Unknown",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "South Side, Strawyberry Ave, 26",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/JdgPJd4.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://live.staticflickr.com/65535/53591632405_c929c2d7f1_o.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1646
         },
         {
             "Name": "Finley Milton",
@@ -1547,12 +1729,12 @@
             "Nicknames": " Finn",
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
-            "Properties": "Unknown",
+            "Properties": "South Side, Little Bighorn Ave, 26",
             "Information": "Unknown",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/WqCNo5o.jpg",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/HYmn1.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 5616
         },
         {
             "Name": "Arya Shah",
@@ -1562,11 +1744,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Hunting License Holder",
             "Occupations": "Unknown",
-            "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/FCNjr.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 2204
         },
         {
             "Name": "Nico Kanto",
@@ -1578,9 +1760,9 @@
             "Properties": "Unknown",
             "Information": "gearhead mechanic shop - selling crowbar and lockpick",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/Y4w3w9N.jpg",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/efRIg.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1282
         },
         {
             "Name": "Hazel Luna",
@@ -1590,11 +1772,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
+            "Information": "Massive Criminal History",
             "Occupations": "Unknown",
-            "Picture of Person": "https://i.imgur.com/SPHEntu.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Picture of Person": "https://kappa.lol/UYbM1.jpeg",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 6846
         },
         {
             "Name": "Lucas Lovesick",
@@ -1604,11 +1786,11 @@
             "Date of Birth": "Unknown",
             "Dirt": "Unknown",
             "Properties": "Unknown",
-            "Information": "Unknown",
-            "Occupations": "Police",
-            "Picture of Person": "https://i.imgur.com/13IgKhb.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Information": "Ex Police",
+            "Occupations": "Unknown",
+            "Picture of Person": "https://live.staticflickr.com/65535/53585500686_148f75f810_o.png",
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 4299
         },
         {
             "Name": "Dexx Martin",
@@ -1621,8 +1803,8 @@
             "Information": "StockTracker Dynamic Financial Data | Real-Time Insights, Crypto Investments & ETFs | The Wolf of Grove St. | Cybersecurity Services",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/tazBajF.png",
-            "Date of Entry": "08/08/2024 15:10:00",
-            "State ID": 0
+            "Date of Entry": "08/08/2024 18:29:00",
+            "State ID": 1214
         },
         {
             "Name": "Michaela Anderson",
@@ -1635,7 +1817,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1649,7 +1831,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1663,7 +1845,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/nuXIpZ4.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1677,7 +1859,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/lp1gRcj.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1691,7 +1873,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/1RTnC9H.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1705,7 +1887,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/4e2XgxS.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1719,7 +1901,7 @@
             "Information": "EMS Captain ",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1733,7 +1915,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/5iUGu7U.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1747,7 +1929,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1761,7 +1943,7 @@
             "Information": "Paralegal/Legal Aid | Farm Equipment Repair | Aspiring Botanist",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1775,7 +1957,7 @@
             "Information": "LS Sanitation Division (LSD)",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1789,7 +1971,7 @@
             "Information": "\udce6 Selling MEDIUM & BIG Storage (1050kg 24 shelfs)And (NEW 30 Shelf Storage) for your House&Appartment\udce6",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/d9tLonz.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1803,7 +1985,7 @@
             "Information": "ART COMMISSIONS CLOSED",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1817,7 +1999,7 @@
             "Information": "50% Armenian 50% Redneck but always 100% That Bitch",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1831,7 +2013,7 @@
             "Information": "Storage, Materials, More.",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/tXuPC2F.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1845,7 +2027,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/ybFjJRL.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1859,7 +2041,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1873,7 +2055,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1887,7 +2069,7 @@
             "Information": "Mosley's Mechanic - Repair, Upgrades and Cosmetics",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1901,7 +2083,7 @@
             "Information": "DnD | Buying ALL MATERIALS | Selling Lumber | Selling All Computer needs",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/jksIEVD.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1915,7 +2097,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1929,7 +2111,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1943,7 +2125,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1957,7 +2139,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1971,7 +2153,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1985,7 +2167,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -1999,7 +2181,7 @@
             "Information": "Mosley's Mechanic",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2013,7 +2195,7 @@
             "Information": "\udc38County Clerk, Assistant to Dr. Grayson, I do Sani sometimes, I enjoy helping people and answering questions :) \udc38",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2027,7 +2209,7 @@
             "Information": "Tails Former lawyer, Saints hang arround",
             "Occupations": "Gang banger",
             "Picture of Person": "https://i.imgur.com/QnwYOLi.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2041,7 +2223,7 @@
             "Information": "SELLING LOCKPICKS! BUYING MATS $6ea",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/SDIH1Sz.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2055,7 +2237,7 @@
             "Information": "ADMC Leader ",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/o2P1bGK.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2069,7 +2251,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/2uo02aG.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2083,7 +2265,7 @@
             "Information": "Unknown",
             "Occupations": "EMS",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2097,7 +2279,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/WDBD60G.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2111,7 +2293,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2125,7 +2307,7 @@
             "Information": "High ranking BBMC member",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/8qeCH3Y.jpeg",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2139,7 +2321,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "https://i.imgur.com/8nie0Hm.png",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2153,7 +2335,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2167,7 +2349,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2181,7 +2363,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2195,7 +2377,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2209,7 +2391,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2223,7 +2405,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2237,7 +2419,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2251,7 +2433,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2265,7 +2447,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2279,7 +2461,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2293,7 +2475,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2307,7 +2489,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2321,7 +2503,7 @@
             "Information": "Unknown",
             "Occupations": "Gruppe 6",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2335,7 +2517,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2349,7 +2531,7 @@
             "Information": "The Hidden",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2363,7 +2545,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2377,7 +2559,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2391,7 +2573,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
@@ -2405,7 +2587,7 @@
             "Information": "Unknown",
             "Occupations": "Unknown",
             "Picture of Person": "Unknown",
-            "Date of Entry": "08/08/2024 15:10:00",
+            "Date of Entry": "08/08/2024 18:29:00",
             "State ID": 0
         },
         {
