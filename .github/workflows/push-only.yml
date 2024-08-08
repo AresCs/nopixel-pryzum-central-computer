@@ -1,9 +1,9 @@
-name: Combine JSON Files and Publish to gh-pages (Test Branch)
+name: Combine JSON Files and Publish to gh-pages (Testing)
 
 on:
   push:
     branches:
-      - main  # Replace 'test' with your testing branch name
+      - main
     paths:
       - 'submodules/lucy/**'
       - 'submodules/ariel/**'
@@ -20,7 +20,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        submodules: true  # Ensure submodules are checked out
+        submodules: true 
     
     - name: Set up Node.js
       uses: actions/setup-node@v3
