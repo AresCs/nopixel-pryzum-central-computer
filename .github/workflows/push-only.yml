@@ -11,6 +11,7 @@ on:
       - 'submodules/aria/**'
       - 'submodules/kenz/**'
       - 'submodules/**/**'
+      - '**/**'
 
 jobs:
   combine-json:
