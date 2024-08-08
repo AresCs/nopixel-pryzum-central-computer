@@ -3,11 +3,11 @@ import json
 from cryptography.fernet import Fernet
 import time
 
-# Get the absolute path to the current script
-script_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the absolute path to the project root
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 # Path to the key file
-key_file_path = os.path.join(script_dir, '../src/secure/key.key')
+key_file_path = os.path.join(project_root, 'src/secure/key.key')
 
 # Wait and check for the key file
 max_wait_time = 10  # seconds
@@ -26,7 +26,7 @@ with open(key_file_path, 'rb') as key_file:
 cipher_suite = Fernet(key)
 
 # Path to the logins file
-logins_file = os.path.join(script_dir, '../src/secure/Logins.json')
+logins_file = os.path.join(project_root, 'src/secure/Logins.json')
 if not os.path.exists(logins_file):
     raise FileNotFoundError(f"Logins file not found: {logins_file}")
 
@@ -39,7 +39,7 @@ json_data = json.dumps(login_data).encode('utf-8')
 encrypted_data = cipher_suite.encrypt(json_data)
 
 # Ensure the output directory exists
-output_directory = os.path.join(script_dir, '../src/secure')
+output_directory = os.path.join(project_root, 'src/secure')
 os.makedirs(output_directory, exist_ok=True)
 
 # Write the encrypted data to a new file
