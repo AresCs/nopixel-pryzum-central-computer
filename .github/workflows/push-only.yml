@@ -1,0 +1,114 @@
+name: Combine JSON Files and Publish to gh-pages (Test Branch)
+
+on:
+  push:
+    branches:
+      - main  # Replace 'test' with your testing branch name
+    paths:
+      - 'submodules/lucy/**'
+      - 'submodules/ariel/**'
+      - 'submodules/akari/**'
+      - 'submodules/aria/**'
+      - 'submodules/kenz/**'
+      - 'submodules/**/**'
+
+jobs:
+  combine-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: true  # Ensure submodules are checked out
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+    
+    - name: Install dependencies
+      run: npm install
+
+    - name: Ensure submodules are up-to-date
+      run: |
+        git submodule sync --recursive
+        git submodule update --init --recursive
+        git submodule foreach --recursive 'git fetch origin && git checkout main'
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: python -m pip install --upgrade pip
+
+    - name: Install cryptography
+      run: pip install cryptography
+
+    # Debugging step: List contents of the secure directory
+    - name: List files in secure directory
+      run: ls -l src/secure/
+
+    - name: Generate encryption key
+      run: python scripts_py/generate_key.py
+
+    - name: Combine and encrypt JSON data
+      run: python scripts_py/combine_json.py
+
+    - name: Encrypt login data
+      run: python scripts_py/encrypt_logins.py
+    
+    - name: Show contents of pryzumData.json
+      run: cat src/secure/pryzumData.json
+
+    - name: Verify combined data file existence
+      run: |
+        if [ -f "src/secure/pryzumData.json" ]; then
+          echo "pryzumData.json exists."
+          ls -l src/secure/pryzumData.json
+        else
+          echo "pryzumData.json does not exist."
+          ls -l src/secure
+          exit 1
+        fi
+
+    - name: Verify encrypted logins file existence
+      run: |
+        if [ -f "src/secure/Logins.enc" ]; then
+          echo "Logins.enc exists."
+          ls -l src/secure/Logins.enc
+        else
+          echo "Logins.enc does not exist."
+          ls -l src/secure
+          exit 1
+        fi
+    
+    - name: Stage changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add src/secure/pryzumData.json src/secure/Logins.enc
+        git status
+        git diff --cached --name-only
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --cached --name-only | grep -q 'src/secure/pryzumData.json\|src/secure/Logins.enc'; then
+          echo "changes_detected=true" >> $GITHUB_ENV
+        else
+          echo "changes_detected=false" >> $GITHUB_ENV
+        fi
+
+    - name: Commit and push changes
+      if: env.changes_detected == 'true'
+      run: |
+        echo "There are updates."
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: No changes detected
+      if: env.changes_detected == 'false'
+      run: echo "There are no updates."
