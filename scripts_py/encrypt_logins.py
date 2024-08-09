@@ -1,7 +1,6 @@
 import os
 import json
 import bcrypt
-import time
 
 # Get the absolute path to the project root
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -18,8 +17,12 @@ with open(logins_file, 'r') as f:
 # Hash the passwords in the login data
 for user in login_data:
     plain_password = user['password'].encode('utf-8')
-    hashed_password = bcrypt.hashpw(plain_password, bcrypt.gensalt())
-    user['password'] = hashed_password.decode('utf-8')  # Store as a string
+    # Check if the password is already hashed
+    if not user['password'].startswith('$2b$'):
+        hashed_password = bcrypt.hashpw(plain_password, bcrypt.gensalt())
+        user['password'] = hashed_password.decode('utf-8')  # Store as a string
+    else:
+        print(f"Password for user {user['username']} is already hashed.")
 
 # Ensure the output directory exists
 output_directory = os.path.join(project_root, 'src/secure')

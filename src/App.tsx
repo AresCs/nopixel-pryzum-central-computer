@@ -85,7 +85,10 @@ const App = () => {
 
     if (user) {
       bcrypt.compare(password, user.password, (err, result) => {
-        if (result) {
+        if (err) {
+          console.error('Error comparing passwords:', err);
+          alert('An error occurred during login. Please try again.');
+        } else if (result) {
           setIsLoggedIn(true);
         } else {
           alert('Invalid credentials');
