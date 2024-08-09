@@ -65,7 +65,9 @@ jobs:
 
     # Debugging step: List contents of the secure directory after combining JSON data
     - name: List files in secure directory after combining JSON data
-      run: ls -l src/secure/
+      run: |
+        ls -l src/secure/
+        echo "List working"
 
     - name: Encrypt login data
       run: python scripts_py/encrypt_logins.py
