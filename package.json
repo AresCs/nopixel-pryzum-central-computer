@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -46,11 +46,8 @@
     ]
   },
   "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/crypto-js": "^4.2.2",
     "@types/papaparse": "^5.3.14",
-    "gh-pages": "^6.1.1",
-    "react-app-rewired": "^2.2.1"
+    "gh-pages": "^6.1.1"
   },
   "homepage": "http://pryzuminternalcomputer.co.uk/"
 }
